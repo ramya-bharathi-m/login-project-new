@@ -1,0 +1,139 @@
+html{
+    height: 100%;
+}
+body{
+    background-color:rgb(140, 139, 184);
+    background-image: url(images/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    margin-right:auto;
+    margin-left:auto;
+    width: 300px;
+}
+header{
+    height:125px;
+}
+
+main{
+    background-color: rgba(242, 242, 242, 0.647);
+    height: 400px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 50px;
+}
+
+footer{
+    height: 50px;
+}
+
+h1{
+    font-size: 18px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+form{
+    font-size: 15px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 40px;
+}
+
+input[type=text]{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    background-color: rgb(38, 28, 134);
+    color: white;
+}
+
+input[type=password]{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    background-color:  rgb(38, 28, 134);
+    color: white;
+}
+
+input[type=submit]{
+   
+   justify-content: center;  
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #000000;
+   color: red;
+   text-decoration: none;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: 45px;
+   margin-right: 25px;
+   margin-top:20px;
+   border-radius: 5px;
+   text-transform: uppercase;
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+
+.button:hover{
+    background-color: #222a35;
+}
+
+.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logoutheader{
+
+    position: absolute;
+    width:300px;
+    height: 50px;
+   /* background-color: #000000;*/
+    margin-left: 1200px;
+    margin-right: 50px;
+}
+
+.logoutmain{
+    position: fixed;
+    margin-right:500px;
+    margin-left:500px;
+    margin-top:120px;
+    height: 700px;
+    width: 300px;
+    font-size: 32px;
+    color:white;
+}
+
+.logoutbutton{
+   display: flex;  
+   justify-content: center;  
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #fdfdfd7b;
+   color: white;
+   text-decoration: none;
+   padding-left: 10px;
+   padding-right: 12px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top:20px;
+   border-radius: 5px;
+   text-transform: uppercase;
+   transition-duration: 0.4s;
+}
+
+.logoutbutton:hover{
+    background-color: #222a35;
+}
